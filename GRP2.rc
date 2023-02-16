@@ -1,0 +1,2198 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\GRP2.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\GRP2.ico"
+IDI_ICON_Ax_mx1         ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_ICON_Ax             ICON    DISCARDABLE     "res\\icon_ax_.ico"
+IDI_ICON_Ax_mn1         ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_ICON_Ax_mn0         ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_ICON_Ax_mx0         ICON    DISCARDABLE     "res\\ico00003.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 122, 35
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Information"
+FONT 8, "Lucida Sans Unicode", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,5,18,17
+    LTEXT           "GRP2, v1.0",IDC_STATIC,35,9,69,8,SS_NOPREFIX
+    LTEXT           "(C) SCHRAUSSER 2011",IDC_STATIC,34,17,79,8
+    CONTROL         170,IDC_STATIC,"Static",SS_BITMAP,22,16,8,7
+END
+
+IDD_GRP2_DIALOG DIALOGEX 0, 0, 208, 123
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "GRP2"
+MENU IDR_MENU1
+FONT 7, "Lucida Sans Unicode", 0, 0, 0x1
+BEGIN
+END
+
+IDD_GRP2_Param_1 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Parameter Einstellung"
+FONT 7, "Lucida Sans Unicode", 0, 0, 0x1
+BEGIN
+    CONTROL         "Funktionskurve",IDC_CHECK_Fk,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,31,30,64,10
+    CONTROL         "(x,y) Punkte",IDC_CHECK_xy,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,31,40,50,10
+    GROUPBOX        "Darstellung",IDC_STATIC,23,18,146,85
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    GROUPBOX        "Dezimalstellen",IDC_STATIC,24,108,146,28
+    EDITTEXT        IDC_EDIT_dez_W_y,97,118,29,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_dez_W_y,"msctls_updown32",UDS_ARROWKEYS,
+                    127,118,15,12,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_dez_W_x,31,118,29,12,ES_AUTOHSCROLL
+    LTEXT           "x",IDC_STATIC,32,52,8,8
+    LTEXT           "y",IDC_STATIC,97,52,8,8
+    CONTROL         "Spin1",IDC_SPIN_dez_W_x,"msctls_updown32",UDS_ARROWKEYS,
+                    61,118,15,12,WS_EX_STATICEDGE
+    CONTROL         "Werte",IDC_CHECK_x,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,31,64,34,10
+    CONTROL         "Werte",IDC_CHECK_y,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,97,64,34,10
+    CONTROL         "Min/Max",IDC_CHECK_xm,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,31,75,45,10
+    CONTROL         "Min/Max",IDC_CHECK_ym,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,97,75,50,10
+    CONTROL         "keine Werte",IDC_CHECK_x_,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,31,86,56,10
+    CONTROL         "keine Werte",IDC_CHECK_y_,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,97,86,59,10
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,30,61,122,1
+    LTEXT           "±",IDC_STATIC,66,53,8,8
+    LTEXT           "±",IDC_STATIC,133,53,8,8
+    CONTROL         "Spin1",IDC_SPIN_fw_xY,"msctls_updown32",UDS_ARROWKEYS | 
+                    UDS_HORZ,132,65,9,6,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_fw_yY,"msctls_updown32",UDS_ARROWKEYS,
+                    142,65,9,6,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_fw_xX,"msctls_updown32",UDS_ARROWKEYS | 
+                    UDS_HORZ,66,65,9,6,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_fw_yX,"msctls_updown32",UDS_ARROWKEYS,
+                    76,65,9,6,WS_EX_STATICEDGE
+    CONTROL         "Tab1",IDC_TAB2,"SysTabControl32",0x0,6,1,204,162
+END
+
+IDD_GRP2_Param_2 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Parameter Einstellung"
+FONT 7, "Lucida Sans Unicode", 0, 0, 0x1
+BEGIN
+    CONTROL         "Achse",IDC_CHECK_xA,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,31,37,33,10
+    CONTROL         "Achse",IDC_CHECK_yA,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,97,37,34,10
+    CONTROL         "Skala",IDC_CHECK_xS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,31,46,34,10
+    CONTROL         "Skala",IDC_CHECK_yS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,97,46,29,10
+    CONTROL         "Werte",IDC_CHECK_xSw,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,31,55,34,10
+    CONTROL         "Werte",IDC_CHECK_ySw,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,97,55,33,10
+    EDITTEXT        IDC_EDIT_dez_S_x,31,133,29,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_dez_S_x,"msctls_updown32",UDS_ARROWKEYS,
+                    61,133,15,12,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_dez_S_y,97,133,29,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_dez_S_y,"msctls_updown32",UDS_ARROWKEYS,
+                    127,133,15,12,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_tlgx,31,89,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_tlgx_d,31,103,29,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "r",IDC_BUTTON_tlgx_reset,77,89,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_tlgx_d_reset,77,103,9,12,0,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_tlgy,97,89,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_tlgy_d,97,103,29,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "r",IDC_BUTTON_tlgy_reset,143,89,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_tlgy_d_reset,143,103,9,12,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_tlgy,"msctls_updown32",UDS_ARROWKEYS,
+                    127,89,15,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_tlgx,"msctls_updown32",UDS_ARROWKEYS,61,
+                    89,15,12,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    GROUPBOX        "Darstellung",IDC_STATIC,23,18,145,58
+    GROUPBOX        "Dezimalstellen",IDC_STATIC,23,123,146,28
+    GROUPBOX        "Delta d bei a",IDC_STATIC,23,78,146,43
+    CONTROL         "Spin1",IDC_SPIN_tlgy_d,"msctls_updown32",UDS_ARROWKEYS,
+                    127,103,15,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_tlgx_d,"msctls_updown32",UDS_ARROWKEYS,
+                    61,103,15,12,WS_EX_STATICEDGE
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,30,35,122,1
+    CONTROL         "Grid",IDC_CHECK_xGrd,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,31,64,39,10
+    CONTROL         "Grid",IDC_CHECK_yGrd,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,97,64,38,10
+    CONTROL         "Spin1",IDC_SPIN_sw_x,"msctls_updown32",UDS_ARROWKEYS | 
+                    UDS_HORZ,67,56,9,6,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sw_y,"msctls_updown32",UDS_ARROWKEYS,77,
+                    56,9,6,WS_EX_STATICEDGE
+    LTEXT           "±",IDC_STATIC,69,27,8,8
+    CONTROL         "Spin1",IDC_SPIN_sw_x2,"msctls_updown32",UDS_ARROWKEYS | 
+                    UDS_HORZ,132,56,9,6,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sw_y2,"msctls_updown32",UDS_ARROWKEYS,
+                    142,56,9,6,WS_EX_STATICEDGE
+    LTEXT           "±",IDC_STATIC,134,27,8,8
+    CONTROL         "Spin1",IDC_SPIN_sw_Ayx,"msctls_updown32",UDS_ARROWKEYS | 
+                    UDS_HORZ,132,38,9,6,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sw_Ayy,"msctls_updown32",UDS_ARROWKEYS,
+                    142,38,9,6,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sw_Axx,"msctls_updown32",UDS_ARROWKEYS | 
+                    UDS_HORZ,67,38,9,6,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sw_Axy,"msctls_updown32",UDS_ARROWKEYS,
+                    77,38,9,6,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sw_scy,"msctls_updown32",UDS_ARROWKEYS | 
+                    UDS_HORZ,132,47,9,6,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sw_scx,"msctls_updown32",UDS_ARROWKEYS,
+                    77,47,10,6,WS_EX_STATICEDGE
+    PUSHBUTTON      "x",IDC_BUTTON_Bx,30,26,11,9
+    PUSHBUTTON      "y",IDC_BUTTON_By,96,26,11,9
+    CONTROL         "Tab1",IDC_TAB,"SysTabControl32",0x0,6,1,204,162
+END
+
+IDD_GRP2_Param_3 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Parameter Einstellung"
+FONT 7, "Lucida Sans Unicode", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    GROUPBOX        "Darstellung",IDC_STATIC,23,18,145,46
+    GROUPBOX        "Dezimalstellen",IDC_STATIC,23,114,146,28
+    GROUPBOX        "Justierung",IDC_STATIC,23,66,146,47
+    CONTROL         "Vektor",IDC_CHECK_xV,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,31,39,45,10
+    CONTROL         "Vektor",IDC_CHECK_yV,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,97,39,50,10
+    CONTROL         "Wert",IDC_CHECK_xK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,31,49,39,10
+    CONTROL         "Wert",IDC_CHECK_yK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,97,49,33,10
+    EDITTEXT        IDC_EDIT_dez_K_x,31,124,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_dez_K_y,97,124,29,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_dez_K_y,"msctls_updown32",UDS_ARROWKEYS,
+                    127,124,15,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_dez_K_x,"msctls_updown32",UDS_ARROWKEYS,
+                    61,124,15,12,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_kjx,31,78,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_kjy,97,78,29,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "r",IDC_BUTTON_kjx_reset,77,78,9,12,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_kjx_d,31,93,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_kjy_d,97,93,29,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "r",IDC_BUTTON_kjy_reset,143,78,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_kjx_d_reset,77,93,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_kjy_d_reset,143,93,9,12,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_kjx,"msctls_updown32",UDS_ARROWKEYS,61,
+                    78,15,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_kjy,"msctls_updown32",UDS_ARROWKEYS,127,
+                    78,15,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_kjx_d,"msctls_updown32",UDS_ARROWKEYS,
+                    61,93,15,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_kjy_d,"msctls_updown32",UDS_ARROWKEYS,
+                    127,93,15,12,WS_EX_STATICEDGE
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    LTEXT           "x",IDC_STATIC,32,26,8,8
+    LTEXT           "y",IDC_STATIC,97,26,8,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,30,35,122,1
+    CONTROL         "Spin1",IDC_SPIN_kw_y,"msctls_updown32",UDS_ARROWKEYS,
+                    136,51,16,6,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_kw_x,"msctls_updown32",UDS_ARROWKEYS | 
+                    UDS_HORZ,71,51,14,6,WS_EX_STATICEDGE
+    CONTROL         "Tab1",IDC_TAB,"SysTabControl32",0x0,6,1,204,162
+    LTEXT           "±",IDC_STATIC,134,27,8,8
+    LTEXT           "±",IDC_STATIC,69,27,8,8
+END
+
+IDD_GRP2_Param_4 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Parameter Einstellung"
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    GROUPBOX        "Grösse (dynamisch)",IDC_STATIC,23,18,145,31
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    EDITTEXT        IDC_EDIT_sc,31,31,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_scy,31,63,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_scy_d,97,63,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sc_d,97,31,29,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "r",IDC_BUTTON_scy_reset,77,63,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_sc_reset,77,31,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_sc_d_reset,143,31,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_scy_d_reset,143,63,9,12,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sc,"msctls_updown32",UDS_ARROWKEYS,61,
+                    31,15,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_scy,"msctls_updown32",UDS_ARROWKEYS,61,
+                    63,15,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sc_d,"msctls_updown32",UDS_ARROWKEYS,
+                    127,31,15,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_scy_d,"msctls_updown32",UDS_ARROWKEYS,
+                    127,63,15,12,WS_EX_STATICEDGE
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    GROUPBOX        "Position (dynamisch)",IDC_STATIC,23,50,145,30
+    EDITTEXT        IDC_EDIT_shift_x,31,104,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_shift_y,97,104,29,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "r",IDC_BUTTON_shift_x_reset,77,104,9,12,0,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_shift_y_reset,143,104,9,12,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_shift_x,"msctls_updown32",UDS_ARROWKEYS | 
+                    UDS_HORZ,61,104,12,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_shift_y,"msctls_updown32",UDS_ARROWKEYS,
+                    127,104,15,12,WS_EX_STATICEDGE
+    GROUPBOX        "Verschub",IDC_STATIC,23,83,145,41
+    LTEXT           "x",IDC_STATIC,32,90,8,8
+    LTEXT           "y",IDC_STATIC,97,90,8,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,30,99,122,1
+    LTEXT           "±",IDC_STATIC,134,91,8,8
+    LTEXT           "±",IDC_STATIC,69,91,8,8
+    EDITTEXT        IDC_EDIT_shift_x2,31,136,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_shift_y2,97,136,29,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "r",IDC_BUTTON_shift_x_reset2,77,136,9,12,0,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_shift_y_reset2,143,136,9,12,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_shift_x2,"msctls_updown32",
+                    UDS_ARROWKEYS | UDS_HORZ,61,136,12,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_shift_y2,"msctls_updown32",
+                    UDS_ARROWKEYS,127,136,15,12,WS_EX_STATICEDGE
+    GROUPBOX        "Form",IDC_STATIC,23,124,145,29
+    CONTROL         "Tab1",IDC_TAB,"SysTabControl32",0x0,6,1,204,162
+END
+
+IDD_GRP2_Param_5 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Parameter Einstellung"
+FONT 7, "Lucida Sans Unicode", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    GROUPBOX        "Skalierung",IDC_STATIC,23,18,145,46
+    COMBOBOX        IDC_COMBO_emfx,32,41,48,58,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_emfy,98,41,48,58,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    LTEXT           "x",IDC_STATIC,32,26,8,8
+    LTEXT           "y",IDC_STATIC,97,26,8,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,30,35,122,1
+    EDITTEXT        IDC_EDIT_emf_file,31,81,115,12,ES_AUTOHSCROLL
+    GROUPBOX        "Dateiname",IDC_STATIC,23,68,145,35
+    CONTROL         "Tab1",IDC_TAB,"SysTabControl32",0x0,6,1,204,162
+END
+
+IDD_GRP2_Info DIALOGEX 0, 0, 209, 49
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Information"
+FONT 8, "Lucida Sans Unicode", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,16,9,18,17
+    LTEXT           "GRP2 - Graphik Dialog, Version 1.0",IDC_STATIC,45,15,
+                    107,8
+    LTEXT           "Dietmar Schrausser (C) SCHRAUSSER 2011",IDC_STATIC,45,
+                    23,143,8
+    EDITTEXT        IDC_EDIT_compile,44,31,141,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "SCHRAUSSER-MAT Werkzeug",IDC_STATIC,45,7,122,8
+    CONTROL         170,IDC_STATIC,"Static",SS_BITMAP,27,21,8,7
+END
+
+IDD_GRP2_Diagrm_1 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Diagramm Einstellung"
+FONT 7, "Lucida Sans Unicode", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Farbe",IDC_STATIC,114,18,34,46
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    GROUPBOX        "pt.",IDC_STATIC,150,18,41,47
+    EDITTEXT        IDC_EDIT_P_gr,156,47,17,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_P_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,47,11,12,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_K_gr,155,30,18,12,ES_AUTOHSCROLL
+    LTEXT           "Kurve",IDC_STATIC,18,32,21,8
+    LTEXT           "Punkte",IDC_STATIC,18,48,24,8
+    CONTROL         "Spin1",IDC_SPIN_K_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,30,11,12,WS_EX_STATICEDGE
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    PUSHBUTTON      "",IDC_BUTTON_P_fb,120,47,9,9,0,WS_EX_STATICEDGE
+    GROUPBOX        "Schriftart",IDC_STATIC,14,66,177,47
+    LTEXT           "x-Werte",IDC_STATIC,23,80,32,8
+    LTEXT           "y-Werte",IDC_STATIC,24,93,27,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,59,77,1,30
+    PUSHBUTTON      "",IDC_BUTTON_schr_y,67,93,16,9,0,WS_EX_STATICEDGE
+    GROUPBOX        "Art",IDC_STATIC,46,18,65,47
+    COMBOBOX        IDC_COMBO_K_art,52,30,52,55,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_P_art,52,46,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON_schr_x,67,80,16,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_K_fb,120,31,9,9,0,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,14,18,30,46
+    GROUPBOX        "Hintergrundfarbe",IDC_STATIC,14,117,178,25
+    PUSHBUTTON      "",IDC_BUTTON_hg_fb,20,127,56,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "keine",IDC_BUTTON_hg,129,127,56,9
+    CONTROL         "Tab1",IDC_TAB2,"SysTabControl32",0x0,6,1,204,162
+END
+
+IDD_GRP2_Diagrm_2 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Diagramm Einstellung"
+FONT 7, "Lucida Sans Unicode", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    GROUPBOX        "Farbe",IDC_STATIC,114,18,34,46
+    GROUPBOX        "pt.",IDC_STATIC,150,18,41,47
+    EDITTEXT        IDC_EDIT_Y_gr,156,47,17,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_Y_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,47,11,12,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_X_gr,155,30,18,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_X_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,30,11,12,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_Y_fb,120,47,9,9,0,WS_EX_STATICEDGE
+    GROUPBOX        "Schriftart",IDC_STATIC,14,66,177,47
+    LTEXT           "x-Werte",IDC_STATIC,23,80,32,8
+    LTEXT           "y-Werte",IDC_STATIC,24,93,27,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,59,77,1,30
+    PUSHBUTTON      "",IDC_BUTTON_schr_y,67,93,16,9,0,WS_EX_STATICEDGE
+    GROUPBOX        "Art",IDC_STATIC,46,18,65,47
+    COMBOBOX        IDC_COMBO_X_art,52,30,52,55,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_Y_art,52,46,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON_schr_x,67,80,16,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_X_fb,120,31,9,9,0,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,14,18,30,46
+    GROUPBOX        "Farbe",IDC_STATIC,114,113,34,46
+    GROUPBOX        "pt.",IDC_STATIC,150,113,41,47
+    EDITTEXT        IDC_EDIT_Ygrid_gr,156,142,17,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_Ygrid_gr,"msctls_updown32",
+                    UDS_ARROWKEYS,174,142,11,12,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_Xgrid_gr,156,125,18,12,ES_AUTOHSCROLL
+    LTEXT           "x",IDC_STATIC,24,127,11,8
+    LTEXT           "y",IDC_STATIC,24,143,16,8
+    CONTROL         "Spin1",IDC_SPIN_Xgrid_gr,"msctls_updown32",
+                    UDS_ARROWKEYS,174,125,11,12,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_Ygrid_fb,120,142,9,9,0,WS_EX_STATICEDGE
+    GROUPBOX        "Art",IDC_STATIC,46,113,65,47
+    COMBOBOX        IDC_COMBO_Xgrid_art,52,125,52,55,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_Ygrid_art,52,141,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON_Xgrid_fb,120,126,9,9,0,WS_EX_STATICEDGE
+    GROUPBOX        "Grid",IDC_STATIC,14,113,30,46
+    CONTROL         "x",IDC_CHECK_x,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,20,32,18,10
+    CONTROL         "y",IDC_CHECK_y,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,20,47,18,10
+    CONTROL         "Tab1",IDC_TAB2,"SysTabControl32",0x0,6,1,204,162
+END
+
+IDD_GRP2_Diagrm_3 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Diagramm Einstellung"
+FONT 7, "Lucida Sans Unicode", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    GROUPBOX        "Farbe",IDC_STATIC,114,18,34,46
+    GROUPBOX        "pt.",IDC_STATIC,150,18,41,47
+    EDITTEXT        IDC_EDIT_Y_gr,156,47,17,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_Y_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,47,11,12,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_X_gr,155,30,18,12,ES_AUTOHSCROLL
+    LTEXT           "x",IDC_STATIC,24,32,11,8
+    LTEXT           "y",IDC_STATIC,24,48,16,8
+    CONTROL         "Spin1",IDC_SPIN_X_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,30,11,12,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_Y_fb,120,47,9,9,0,WS_EX_STATICEDGE
+    GROUPBOX        "Schriftart",IDC_STATIC,14,66,177,32
+    LTEXT           "xy-Werte",IDC_STATIC,23,80,31,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,59,77,1,17
+    GROUPBOX        "Art",IDC_STATIC,46,18,65,47
+    COMBOBOX        IDC_COMBO_X_art,52,30,52,55,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_Y_art,52,46,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON_schr_x,67,80,16,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_X_fb,120,31,9,9,0,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,14,18,30,46
+    CONTROL         "Tab1",IDC_TAB2,"SysTabControl32",0x0,6,1,204,162
+END
+
+IDD_GRP2_Fn_1 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Funktions Einstellung"
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    CONTROL         "Integral I(n)f(x)",IDC_CHECK_int,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,27,37,10,8
+    CONTROL         "Differential f(n)(x)",IDC_CHECK_diff,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,27,49,10,10
+    EDITTEXT        IDC_EDIT_diff_n,153,48,17,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "Spin1",IDC_SPIN_diff_n,"msctls_updown32",UDS_ARROWKEYS,
+                    172,48,11,12,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_int_n,153,35,18,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Spin1",IDC_SPIN_int_n,"msctls_updown32",UDS_ARROWKEYS,
+                    172,35,11,12,WS_EX_STATICEDGE
+    CONTROL         "Newton",IDC_CHECK_nwtn,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,27,95,39,10
+    CONTROL         "Kubische Spline",IDC_CHECK_qspl,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,27,106,65,10
+    CONTROL         "Mittelung",IDC_CHECK_mtlg,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,27,84,46,10
+    GROUPBOX        "Interpolation",IDC_STATIC,15,68,185,54
+    GROUPBOX        "Infinitesimalapproximation",IDC_STATIC,15,19,185,46
+    LTEXT           "n",IDC_STATIC,144,37,8,8
+    CONTROL         191,IDC_STATIC,"Static",SS_BITMAP,41,38,2,7
+    LTEXT           "f",IDC_STATIC,41,49,8,8
+    CONTROL         197,IDC_STATIC,"Static",SS_BITMAP,44,50,5,3
+    CONTROL         197,IDC_STATIC,"Static",SS_BITMAP,44,36,5,3
+    LTEXT           "(x)",IDC_STATIC,49,49,9,8
+    LTEXT           "f(x)dx",IDC_STATIC,49,37,19,8
+    LTEXT           "n",IDC_STATIC,144,49,8,8
+    LTEXT           "Integral",IDC_STATIC,112,37,26,8
+    LTEXT           "Differential",IDC_STATIC,102,49,36,8
+    EDITTEXT        IDC_EDIT_mtlg_i,153,83,18,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "Spin1",IDC_SPIN_mtlg_i,"msctls_updown32",UDS_ARROWKEYS,
+                    172,83,10,12,WS_EX_STATICEDGE
+    LTEXT           "i",IDC_STATIC,143,85,8,8
+    LTEXT           "Iterationen",IDC_STATIC,101,85,36,8
+    CONTROL         "Tab1",IDC_TAB2,"SysTabControl32",0x0,6,1,204,162
+    PUSHBUTTON      "-> (F)",ID_FXY,108,166,50,9,BS_CENTER
+END
+
+IDD_GRP2_Fn_2 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Funktions Einstellung"
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    EDITTEXT        IDC_EDIT_CI,157,34,26,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_CI,"msctls_updown32",UDS_ARROWKEYS,184,
+                    34,11,12,WS_EX_STATICEDGE
+    GROUPBOX        "Vertrauensbereich",IDC_STATIC,15,18,185,33
+    CONTROL         "r",IDC_CHECK_rxy,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    23,78,15,8
+    CONTROL         "r",IDC_CHECK_ryx,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    55,78,16,8
+    LTEXT           "r",IDC_STATIC,25,62,8,8
+    LTEXT           "r",IDC_STATIC,57,62,3,8
+    LTEXT           "Regressionsgerade",IDC_STATIC,91,78,60,8
+    LTEXT           "Vorhersagefehler ",IDC_STATIC,91,87,72,8
+    LTEXT           "Geschätzter Vorhersagefehler",IDC_STATIC,91,96,93,8
+    LTEXT           "Geschätzter Korrelationsfehler ",IDC_STATIC,91,105,100,
+                    8
+    LTEXT           "Geschätzter Regressionsfehler ",IDC_STATIC,91,114,98,8
+    CONTROL         "sy'",IDC_CHECK_syx,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,23,87,27,8
+    CONTROL         "sx'",IDC_CHECK_sxy,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,55,87,27,8
+    CONTROL         "ôx'y",IDC_CHECK_s1xy,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,55,96,11,8
+    CONTROL         "ôy'x",IDC_CHECK_s1yx,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,23,96,10,8
+    CONTROL         "ôr",IDC_CHECK_srxy,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,23,105,12,8
+    CONTROL         "ôr",IDC_CHECK_sryx,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,55,105,10,8
+    CONTROL         "ôRx",IDC_CHECK_srx,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,23,115,10,8
+    CONTROL         "ôRy",IDC_CHECK_sry,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,55,115,9,8
+    GROUPBOX        "Theta",IDC_STATIC,15,52,185,93
+    CONTROL         "Darstellung überschnitten",IDC_CHECK_D,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,23,129,99,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,22,72,169,1
+    PUSHBUTTON      "P",IDC_BUTTON_P,153,128,18,10,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "SP",IDC_BUTTON_SP,171,128,18,10,0,WS_EX_STATICEDGE
+    LTEXT           "CI%",IDC_STATIC,158,25,11,8
+    EDITTEXT        IDC_EDIT_CI_t,116,34,26,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_CI_t,"msctls_updown32",UDS_ARROWKEYS,
+                    143,34,11,12,WS_EX_STATICEDGE
+    LTEXT           " ± t(df)",IDC_STATIC,114,25,22,8
+    EDITTEXT        IDC_EDIT_CI_z,76,34,26,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_CI_z,"msctls_updown32",UDS_ARROWKEYS,
+                    102,34,11,12,WS_EX_STATICEDGE
+    LTEXT           " ± ž",IDC_STATIC,74,25,13,8
+    CONTROL         198,IDC_STATIC,"Static",SS_BITMAP,61,64,3,3
+    CONTROL         199,IDC_STATIC,"Static",SS_BITMAP,39,83,5,2
+    CONTROL         200,IDC_STATIC,"Static",SS_BITMAP,71,83,5,2
+    LTEXT           "y'",IDC_STATIC,40,96,8,8
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,35,97,4,5
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,67,97,4,5
+    LTEXT           "x'",IDC_STATIC,72,96,8,8
+    LTEXT           "r",IDC_STATIC,40,105,8,8
+    CONTROL         199,IDC_STATIC,"Static",SS_BITMAP,43,110,5,2
+    LTEXT           "r",IDC_STATIC,72,105,8,8
+    CONTROL         200,IDC_STATIC,"Static",SS_BITMAP,75,110,5,2
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,35,107,4,5
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,67,107,4,5
+    LTEXT           "R",IDC_STATIC,40,114,8,8
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,35,116,4,5
+    LTEXT           "R",IDC_STATIC,72,114,8,8
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,67,116,4,5
+    CONTROL         201,IDC_STATIC,"Static",SS_BITMAP,45,119,2,2
+    CONTROL         202,IDC_STATIC,"Static",SS_BITMAP,77,119,2,2
+    CONTROL         201,IDC_STATIC,"Static",SS_BITMAP,44,101,2,2
+    CONTROL         201,IDC_STATIC,"Static",SS_BITMAP,43,92,2,2
+    CONTROL         202,IDC_STATIC,"Static",SS_BITMAP,76,101,2,2
+    CONTROL         202,IDC_STATIC,"Static",SS_BITMAP,75,92,2,2
+    CONTROL         "Tab1",IDC_TAB2,"SysTabControl32",0x0,6,1,204,162
+    PUSHBUTTON      "-> (F)",ID_FXY,108,166,50,9,BS_CENTER | WS_DISABLED
+END
+
+IDD_GRP2_Fn_3 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Funktions Einstellung"
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    CONTROL         "p(x)",IDC_CHECK_vx,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,27,131,30,8
+    CONTROL         "p(y)",IDC_CHECK_vy,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,27,140,31,10
+    GROUPBOX        "Funktion",IDC_STATIC,17,120,183,34
+    CONTROL         "x     ~   µ",IDC_CHECK_am,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,27,76,10,8
+    LTEXT           "Arithmetisches Mittel",IDC_STATIC,113,76,68,8
+    LTEXT           "Standardabweichung",IDC_STATIC,113,85,72,8
+    LTEXT           "Schiefe ",IDC_STATIC,113,95,24,8
+    LTEXT           "Kurtosis ",IDC_STATIC,113,104,30,8
+    CONTROL         "s",IDC_CHECK_sd,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    27,85,16,8
+    CONTROL         "a3",IDC_CHECK_a3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    27,95,10,8
+    CONTROL         "a4",IDC_CHECK_a4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    27,104,9,8
+    GROUPBOX        "Theta",IDC_STATIC,17,52,183,66
+    CONTROL         "ô",IDC_CHECK_sdg,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    51,85,8,8
+    CONTROL         "â3",IDC_CHECK_ag3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    51,95,10,8
+    CONTROL         "â4",IDC_CHECK_ag4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    51,104,10,8
+    CONTROL         "ôx",IDC_CHECK_sgam,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,78,76,10,8
+    CONTROL         "ôa3",IDC_CHECK_sga3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,78,95,10,8
+    CONTROL         "ôa4",IDC_CHECK_sga4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,78,104,9,8
+    LTEXT           "P",IDC_STATIC,29,61,8,8
+    LTEXT           "SP",IDC_STATIC,53,61,8,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,25,71,165,1
+    LTEXT           "s",IDC_STATIC,80,61,8,8
+    EDITTEXT        IDC_EDIT_CI,157,34,26,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_CI,"msctls_updown32",UDS_ARROWKEYS,184,
+                    34,11,12,WS_EX_STATICEDGE
+    GROUPBOX        "Vertrauensbereich",IDC_STATIC,17,18,183,33
+    EDITTEXT        IDC_EDIT_CI_t1,116,34,26,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_CI_Fp_t,"msctls_updown32",UDS_ARROWKEYS,
+                    143,34,11,12,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_CI_z1,76,34,26,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_CI_Fp_z,"msctls_updown32",UDS_ARROWKEYS,
+                    102,34,11,12,WS_EX_STATICEDGE
+    LTEXT           "CI%",IDC_STATIC,158,25,11,8
+    LTEXT           " ± t(df)",IDC_STATIC,114,25,22,8
+    LTEXT           " ± ž",IDC_STATIC,74,25,13,8
+    PUSHBUTTON      "P",IDC_BUTTON_P1,155,103,18,10,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "SP",IDC_BUTTON_SP1,173,103,18,10,0,WS_EX_STATICEDGE
+    CONTROL         "p",IDC_CHECK_p,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | 
+                    WS_TABSTOP,119,60,17,10
+    CONTROL         "pa1",IDC_CHECK_pa1,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,154,60,9,10
+    CONTROL         "pa2",IDC_CHECK_pa2,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,180,60,9,10
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,63,87,4,5
+    CONTROL         183,IDC_STATIC,"Static",SS_BITMAP,40,78,3,4
+    CONTROL         184,IDC_STATIC,"Static",SS_BITMAP,95,80,6,6
+    CONTROL         185,IDC_STATIC,"Static",SS_BITMAP,64,96,6,5
+    CONTROL         186,IDC_STATIC,"Static",SS_BITMAP,69,99,2,3
+    CONTROL         187,IDC_STATIC,"Static",SS_BITMAP,40,97,5,3
+    CONTROL         186,IDC_STATIC,"Static",SS_BITMAP,45,98,2,3
+    CONTROL         187,IDC_STATIC,"Static",SS_BITMAP,40,107,5,3
+    CONTROL         185,IDC_STATIC,"Static",SS_BITMAP,64,105,5,5
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,69,108,2,3
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,45,108,2,3
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,90,77,20,20
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,90,96,4,5
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,90,105,4,5
+    CONTROL         189,IDC_STATIC,"Static",SS_BITMAP,95,99,5,3
+    CONTROL         190,IDC_STATIC,"Static",SS_BITMAP,95,108,5,3
+    LTEXT           "p",IDC_STATIC,141,61,8,8
+    CONTROL         177,IDC_STATIC,"Static",SS_BITMAP,146,62,6,3
+    LTEXT           "p",IDC_STATIC,167,61,8,8
+    CONTROL         178,IDC_STATIC,"Static",SS_BITMAP,172,63,10,5
+    CONTROL         "Tab1",IDC_TAB2,"SysTabControl32",0x0,6,1,204,162
+    PUSHBUTTON      "-> (F)",ID_FXY,108,166,50,9,BS_CENTER
+END
+
+IDD_GRP2_Prg DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Programm Einstellung"
+FONT 7, "Lucida Sans Unicode", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    CONTROL         "Fensterposition speichern",IDC_CHECK_wnd_pos,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,22,32,98,10
+    CONTROL         "Dynamisch (Size und Verschub)",IDC_CHECK_rnd_dyn,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,22,64,113,10
+    CONTROL         "Splash Info anzeigen",IDC_CHECK_splash,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,22,21,79,10
+    CONTROL         "Cursor",IDC_CHECK_csr,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,128,20,38,10
+    CONTROL         "File-Stream",IDC_CHECK_fstream_rnd,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,22,86,52,10
+    GROUPBOX        "Rendering",IDC_STATIC,16,51,174,52
+    GROUPBOX        "Allgemein",IDC_STATIC,15,9,175,39
+    CONTROL         "log",IDC_CHECK_log,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,128,32,26,10
+    CONTROL         "Dynamisch (Einstellugen)",IDC_CHECK_rnd_dyn2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,22,75,94,10
+    GROUPBOX        "Farbschema",IDC_STATIC,15,105,175,34
+    COMBOBOX        IDC_COMBO_schema,61,118,120,78,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "speichern",IDC_BUTTON1,21,120,35,10,0,WS_EX_STATICEDGE
+END
+
+IDD_GRP2_Diagrm_4 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Diagramm Einstellung"
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    GROUPBOX        "Q",IDC_STATIC,11,18,33,142
+    GROUPBOX        "Art",IDC_STATIC,46,18,65,142
+    GROUPBOX        "Farbe",IDC_STATIC,114,18,34,142
+    GROUPBOX        "pt.",IDC_STATIC,150,18,41,142
+    COMBOBOX        IDC_COMBO_rxy_art,52,28,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_ryx_art,52,41,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_syx_art,52,54,52,55,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_sxy_art,52,67,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_s1yx_art,52,80,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_s1xy_art,52,93,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_srxy_art,52,106,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_sryx_art,52,119,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_srx_art,52,132,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_sry_art,52,145,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON_rxy_fb,120,28,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_ryx_fb,120,41,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_syx_fb,120,54,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_sxy_fb,120,67,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_s1yx_fb,120,80,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_s1xy_fb,120,93,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_srxy_fb,120,106,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_sryx_fb,120,119,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_srx_fb,120,132,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_sry_fb,120,145,9,9,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_rxy_gr,156,28,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ryx_gr,156,41,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_syx_gr,156,54,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sxy_gr,156,67,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_s1yx_gr,156,80,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_s1xy_gr,156,93,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_srxy_gr,156,106,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sryx_gr,156,119,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_srx_gr,156,132,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sry_gr,156,145,17,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_rxy_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,28,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_ryx_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,41,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_syx_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,54,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sxy_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,67,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_s1yx_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,80,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_s1xy_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,93,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_srxy_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,106,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sryx_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,119,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_srx_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,132,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sry_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,145,11,12,WS_EX_STATICEDGE
+    CONTROL         "",IDC_CHECK_rxy,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,28,28,13,10
+    CONTROL         "",IDC_CHECK_ryx,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,31,41,10,10
+    CONTROL         "",IDC_CHECK_syx,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,31,54,10,10
+    CONTROL         "sx'y",IDC_CHECK_sxy,"Button",BS_AUTO3STATE | 
+                    BS_LEFTTEXT | WS_TABSTOP,31,67,10,10
+    CONTROL         "ôy'x",IDC_CHECK_sgyx,"Button",BS_AUTO3STATE | 
+                    BS_LEFTTEXT | WS_TABSTOP,32,80,9,10
+    CONTROL         "ôx'y",IDC_CHECK_sgxy,"Button",BS_AUTO3STATE | 
+                    BS_LEFTTEXT | WS_TABSTOP,31,93,10,10
+    CONTROL         "ôrxy",IDC_CHECK_srxy,"Button",BS_AUTO3STATE | 
+                    BS_LEFTTEXT | WS_TABSTOP,31,106,10,10
+    CONTROL         "",IDC_CHECK_sryx,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,31,119,10,10
+    CONTROL         "",IDC_CHECK_srx,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | 
+                    WS_TABSTOP,31,132,10,10
+    CONTROL         "",IDC_CHECK_sry,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | 
+                    WS_TABSTOP,30,145,11,10
+    LTEXT           "r",IDC_STATIC,17,28,8,8
+    CONTROL         199,IDC_STATIC,"Static",SS_BITMAP,21,33,5,2
+    LTEXT           "r",IDC_STATIC,17,41,8,8
+    CONTROL         200,IDC_STATIC,"Static",SS_BITMAP,21,46,5,2
+    LTEXT           "sy'",IDC_STATIC,17,54,9,8
+    LTEXT           "sx'",IDC_STATIC,17,67,10,8
+    CONTROL         201,IDC_STATIC,"Static",SS_BITMAP,25,59,2,2
+    CONTROL         202,IDC_STATIC,"Static",SS_BITMAP,26,72,2,2
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,17,81,4,5
+    LTEXT           "y'",IDC_STATIC,22,80,8,8
+    LTEXT           "x'",IDC_STATIC,21,93,8,8
+    LTEXT           "r",IDC_STATIC,21,106,8,8
+    CONTROL         199,IDC_STATIC,"Static",SS_BITMAP,25,111,5,2
+    LTEXT           "r",IDC_STATIC,21,119,8,8
+    CONTROL         200,IDC_STATIC,"Static",SS_BITMAP,25,124,5,2
+    LTEXT           "R",IDC_STATIC,22,145,8,8
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,17,95,4,5
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,17,108,4,5
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,17,121,4,5
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,17,147,4,5
+    CONTROL         201,IDC_STATIC,"Static",SS_BITMAP,26,85,2,2
+    CONTROL         202,IDC_STATIC,"Static",SS_BITMAP,26,98,2,2
+    CONTROL         202,IDC_STATIC,"Static",SS_BITMAP,27,150,2,2
+    CONTROL         "Tab1",IDC_TAB2,"SysTabControl32",0x0,6,1,204,162
+    LTEXT           "R",IDC_STATIC,22,132,8,8
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,17,134,4,5
+    CONTROL         201,IDC_STATIC,"Static",SS_BITMAP,27,137,2,2
+END
+
+IDD_GRP2_Diagrm_5 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Diagramm Einstellung"
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    GROUPBOX        "Q",IDC_STATIC,11,18,33,142
+    GROUPBOX        "Art",IDC_STATIC,46,18,65,142
+    GROUPBOX        "Farbe",IDC_STATIC,114,18,34,142
+    GROUPBOX        "pt.",IDC_STATIC,150,18,41,142
+    COMBOBOX        IDC_COMBO_X_art,52,28,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_sd_art,52,41,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_sdg_art,52,54,52,55,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_sgx_art,52,67,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_a3_art,52,80,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_ag3_art,52,93,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_sa3g_art,52,106,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_a4_art,52,119,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_ag4_art,52,132,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_sa4g_art,52,145,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON_X_fb,120,28,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_sd_fb,120,41,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_sdg_fb,120,54,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_sgx_fb,120,67,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_a3_fb,120,80,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_ag3_fb,120,93,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_sa3g_fb,120,106,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_a4_fb,120,119,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_ag4_fb,120,132,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_sa4g_fb,120,145,9,9,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_X_gr,156,28,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sd_gr,156,41,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sdg_gr,156,54,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sgx_gr,156,67,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_a3_gr,156,80,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ag3_gr,156,93,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sa3g_gr,156,106,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_a4_gr,156,119,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ag4_gr,156,132,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_sa4g_gr,156,145,17,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_X_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,28,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sd_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,41,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sdg_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,54,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sgx_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,67,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_a3_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,80,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_ag3_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,93,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sa3g_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,106,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_a4_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,119,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_ag4_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,132,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_sa4g_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,145,11,12,WS_EX_STATICEDGE
+    CONTROL         "",IDC_CHECK_x,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,30,28,11,10
+    CONTROL         "s",IDC_CHECK_s,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,33,41,8,10
+    CONTROL         "",IDC_CHECK_sg,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,29,54,12,10
+    CONTROL         "ôx",IDC_CHECK_sgx,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,31,67,10,10
+    CONTROL         "a3",IDC_CHECK_a31,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,32,80,9,10
+    CONTROL         "â3",IDC_CHECK_ag3,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,31,93,10,10
+    CONTROL         "ôa3",IDC_CHECK_sa3g,"Button",BS_AUTO3STATE | 
+                    BS_LEFTTEXT | WS_TABSTOP,32,106,9,10
+    CONTROL         "a4",IDC_CHECK_a41,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,31,119,10,10
+    CONTROL         "â4",IDC_CHECK_ag41,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,32,132,9,10
+    CONTROL         "",IDC_CHECK_sa4g,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,29,145,12,10
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    CONTROL         183,IDC_STATIC,"Static",SS_BITMAP,17,31,3,4
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,17,56,4,5
+    CONTROL         184,IDC_STATIC,"Static",SS_BITMAP,22,72,2,3
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,17,68,4,5
+    CONTROL         187,IDC_STATIC,"Static",SS_BITMAP,18,84,5,3
+    CONTROL         187,IDC_STATIC,"Static",SS_BITMAP,18,123,5,3
+    CONTROL         185,IDC_STATIC,"Static",SS_BITMAP,18,95,5,5
+    CONTROL         185,IDC_STATIC,"Static",SS_BITMAP,18,134,5,5
+    CONTROL         186,IDC_STATIC,"Static",SS_BITMAP,24,85,2,3
+    CONTROL         186,IDC_STATIC,"Static",SS_BITMAP,24,98,2,3
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,24,124,2,3
+    CONTROL         188,IDC_STATIC,"Static",SS_BITMAP,24,137,2,3
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,18,109,4,5
+    CONTROL         182,IDC_STATIC,"Static",SS_BITMAP,18,147,4,5
+    CONTROL         189,IDC_STATIC,"Static",SS_BITMAP,22,113,5,3
+    CONTROL         190,IDC_STATIC,"Static",SS_BITMAP,22,151,5,3
+    LTEXT           "s",IDC_STATIC,18,41,8,8
+    CONTROL         "Tab1",IDC_TAB2,"SysTabControl32",0x0,6,1,204,162
+END
+
+IDD_GRP2_koord DIALOGEX 0, 0, 267, 89
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Koordinaten"
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    DEFPUSHBUTTON   "übernehmen",IDOK,212,76,50,9
+    EDITTEXT        IDC_EDIT_Ax,13,29,29,12,ES_OEMCONVERT
+    EDITTEXT        IDC_EDIT_Ay,72,29,29,12,ES_AUTOHSCROLL
+    GROUPBOX        "Achsen",IDC_STATIC,6,9,127,64
+    LTEXT           "Y(x):",IDC_STATIC,13,16,24,8
+    LTEXT           "X(y):",IDC_STATIC,73,16,25,8
+    PUSHBUTTON      "°",IDCANCEL,5,76,50,9,BS_LEFT
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,76,50,9,BS_CENTER
+    PUSHBUTTON      "Ø",ID_BUTTON_Ax_min,13,57,16,9,BS_ICON | BS_CENTER,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "",ID_BUTTON_Ax_0,110,57,15,9,BS_ICON | BS_CENTER,
+                    WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_Ax,"msctls_updown32",UDS_ARROWKEYS | 
+                    UDS_HORZ,43,29,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_Ay,"msctls_updown32",UDS_ARROWKEYS,102,
+                    29,11,12,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_Ax_d,13,42,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Ay_d,72,42,29,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,13,25,101,1
+    PUSHBUTTON      "r",IDC_BUTTON_Ax_reset,57,29,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_Ax_d_reset,57,42,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_Ay_reset,116,29,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_Ay_d_reset,116,42,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "^",ID_BUTTON_Ax_max,28,57,16,9,BS_ICON | BS_CENTER,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "Ø",ID_BUTTON_Ay_min,72,57,16,9,BS_ICON | BS_CENTER,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "^",ID_BUTTON_Ay_max,87,57,16,9,BS_ICON | BS_CENTER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_Vx,143,29,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Vy,201,29,29,12,ES_AUTOHSCROLL
+    GROUPBOX        "Vektoren",IDC_STATIC,135,9,127,64
+    PUSHBUTTON      "Ø",ID_BUTTON_Vx_min,143,57,16,9,BS_ICON | BS_CENTER,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "-¦-",ID_BUTTON_Vx_0,239,57,15,9,BS_ICON | BS_CENTER,
+                    WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_Vx,"msctls_updown32",UDS_ARROWKEYS | 
+                    UDS_HORZ,173,29,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_Vy,"msctls_updown32",UDS_ARROWKEYS,231,
+                    29,11,12,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_Vx_d,143,42,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Vy_d,201,42,29,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,143,25,100,1
+    PUSHBUTTON      "r",IDC_BUTTON_Vx_reset,187,29,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_Vx_d_reset,187,42,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_Vy_reset,245,29,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "r",IDC_BUTTON_Vy_d_reset,245,42,9,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "^",ID_BUTTON_Vx_max,157,57,16,9,BS_ICON | BS_CENTER,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "Ø",ID_BUTTON_Vy_min,201,57,16,9,BS_ICON | BS_CENTER,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "^",ID_BUTTON_Vy_max,217,57,16,9,BS_ICON | BS_CENTER,
+                    WS_EX_STATICEDGE
+    LTEXT           "x:",IDC_STATIC,144,16,8,8
+    LTEXT           "y:",IDC_STATIC,204,16,8,8
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,236,2,25,10
+    CONTROL         "Spin1",IDC_SPIN_Ax_d,"msctls_updown32",UDS_ARROWKEYS,43,
+                    42,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_Ay_d,"msctls_updown32",UDS_ARROWKEYS,
+                    102,42,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_Vx_d,"msctls_updown32",UDS_ARROWKEYS,
+                    174,42,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_Vy_d,"msctls_updown32",UDS_ARROWKEYS,
+                    231,42,11,12,WS_EX_STATICEDGE
+END
+
+IDD_GRP2_Diagrm_6 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Diagramm Einstellung"
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    GROUPBOX        "Q",IDC_STATIC,11,18,33,92
+    GROUPBOX        "Art",IDC_STATIC,46,18,65,92
+    GROUPBOX        "Farbe",IDC_STATIC,114,18,34,92
+    GROUPBOX        "pt.",IDC_STATIC,150,18,41,92
+    COMBOBOX        IDC_COMBO_x0_art,52,28,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_s0_art,52,41,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_x1_art,52,54,52,55,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_s1_art,52,67,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_e_art,52,80,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_X_art,52,93,52,49,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON_x0_fb,120,28,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_s0_fb,120,41,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_x1_fb,120,54,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_s1_fb,120,67,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_e_fb,120,80,9,9,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_BUTTON_X_fb,120,93,9,9,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_x0_gr,156,28,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_s0_gr,156,41,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_x1_gr,156,54,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_s1_gr,156,67,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_e_gr,156,80,17,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_X_gr,156,93,17,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_x0_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,28,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_s0_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,41,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_x1_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,54,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_s1_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,67,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_e_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,80,11,12,WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN_X_gr,"msctls_updown32",UDS_ARROWKEYS,
+                    174,93,11,12,WS_EX_STATICEDGE
+    CONTROL         "µ0",IDC_CHECK_x0,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,31,28,10,10
+    CONTROL         "",IDC_CHECK_s0,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,29,41,12,10
+    CONTROL         "",IDC_CHECK_x1,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,29,54,12,10
+    CONTROL         "",IDC_CHECK_s1,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,29,67,12,10
+    CONTROL         "e",IDC_CHECK_e,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,32,80,9,10
+    CONTROL         "x",IDC_CHECK_x,"Button",BS_AUTO3STATE | BS_LEFTTEXT | 
+                    WS_TABSTOP,33,93,8,10
+    LTEXT           "µ",IDC_STATIC,17,28,8,8
+    LTEXT           "µ",IDC_STATIC,17,54,8,8
+    LTEXT           "x",IDC_STATIC,17,93,8,8
+    CONTROL         174,IDC_STATIC,"Static",SS_BITMAP,17,84,3,3
+    CONTROL         181,IDC_STATIC,"Static",SS_BITMAP,22,98,7,3
+    CONTROL         179,IDC_STATIC,"Static",SS_BITMAP,22,59,1,3
+    CONTROL         175,IDC_STATIC,"Static",SS_BITMAP,17,70,5,4
+    CONTROL         176,IDC_STATIC,"Static",SS_BITMAP,17,44,6,4
+    CONTROL         180,IDC_STATIC,"Static",SS_BITMAP,22,33,2,3
+    CONTROL         "Tab1",IDC_TAB2,"SysTabControl32",0x0,6,1,204,162
+END
+
+IDD_GRP2_Fn_4 DIALOGEX 0, 0, 217, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GRP2 - Funktions Einstellung"
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    DEFPUSHBUTTON   "übernehmen",IDOK,160,166,50,9
+    PUSHBUTTON      "°",IDCANCEL,5,166,50,9,BS_LEFT
+    CONTROL         "INI",IDC_CHECK_ini,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,183,2,25,10
+    PUSHBUTTON      "reset",ID_Voreinstellungen,57,166,50,9,BS_CENTER
+    GROUPBOX        "Theta",IDC_STATIC,17,52,183,66
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,25,71,165,1
+    EDITTEXT        IDC_EDIT_CI,157,34,26,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_CI,"msctls_updown32",UDS_ARROWKEYS,184,
+                    34,11,12,WS_EX_STATICEDGE
+    GROUPBOX        "Vertrauensbereich",IDC_STATIC,18,18,182,33
+    EDITTEXT        IDC_EDIT_CI_t,116,34,26,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_CI_Fe_t,"msctls_updown32",UDS_ARROWKEYS,
+                    143,34,11,12,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_CI_z,76,34,26,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_CI_Fe_z,"msctls_updown32",UDS_ARROWKEYS,
+                    102,34,11,12,WS_EX_STATICEDGE
+    LTEXT           "CI%",IDC_STATIC,158,25,11,8
+    LTEXT           " ± t(df)",IDC_STATIC,114,25,22,8
+    LTEXT           " ± ž",IDC_STATIC,74,25,13,8
+    CONTROL         "p",IDC_CHECK_p,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | 
+                    WS_TABSTOP,119,60,17,10
+    CONTROL         "pa1",IDC_CHECK_pa1,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,154,60,9,10
+    CONTROL         "pa2",IDC_CHECK_pa2,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,180,60,9,10
+    CONTROL         "µ0",IDC_CHECK_x0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    27,76,16,8
+    CONTROL         "e",IDC_CHECK_e,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,
+                    95,8,8
+    CONTROL         "µ1",IDC_CHECK_x1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    53,76,15,8
+    CONTROL         "x",IDC_CHECK_xcrit,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,78,104,15,8
+    LTEXT           "Arithmetisches Mittel",IDC_STATIC,113,76,68,8
+    LTEXT           "Standardabweichung",IDC_STATIC,113,85,72,8
+    CONTROL         "o0",IDC_CHECK_s0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    27,85,9,8
+    CONTROL         "o1",IDC_CHECK_s1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    53,85,9,8
+    LTEXT           "H",IDC_STATIC,29,61,8,8
+    LTEXT           "H",IDC_STATIC,53,61,8,8
+    LTEXT           "Effektgrösse",IDC_STATIC,113,95,39,8
+    LTEXT           "Schwellenwert",IDC_STATIC,113,104,45,8
+    CONTROL         "z",IDC_CHECK_z,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | 
+                    WS_TABSTOP,138,128,16,8
+    GROUPBOX        "Verteilung",IDC_STATIC,18,119,183,33
+    EDITTEXT        IDC_EDIT_df,169,134,22,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "t",IDC_CHECK_t,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | 
+                    WS_TABSTOP,138,138,16,8
+    LTEXT           "df",IDC_STATIC,159,138,8,8
+    CONTROL         174,IDC_STATIC,"Static",SS_BITMAP,89,98,5,5
+    CONTROL         175,IDC_STATIC,"Static",SS_BITMAP,66,88,6,4
+    CONTROL         176,IDC_STATIC,"Static",SS_BITMAP,40,88,6,4
+    CONTROL         179,IDC_STATIC,"Static",SS_BITMAP,70,81,1,3
+    CONTROL         180,IDC_STATIC,"Static",SS_BITMAP,44,81,2,3
+    CONTROL         180,IDC_STATIC,"Static",SS_BITMAP,35,65,2,3
+    CONTROL         179,IDC_STATIC,"Static",SS_BITMAP,59,65,1,3
+    CONTROL         181,IDC_STATIC,"Static",SS_BITMAP,94,108,7,3
+    LTEXT           "p",IDC_STATIC,141,61,8,8
+    CONTROL         177,IDC_STATIC,"Static",SS_BITMAP,146,62,6,3
+    LTEXT           "p",IDC_STATIC,167,61,8,8
+    CONTROL         178,IDC_STATIC,"Static",SS_BITMAP,172,63,10,5
+    CONTROL         "Tab1",IDC_TAB2,"SysTabControl32",0x0,6,1,204,162
+    PUSHBUTTON      "-> (F)",ID_FXY,108,166,50,9,BS_CENTER | WS_DISABLED
+END
+
+IDD_GRP2_Splash DIALOGEX 0, 0, 176, 38
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 7, "Lucida Sans Unicode", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,8,5,20,18
+    LTEXT           "SCHRAUSSER-MAT Werkzeug",IDC_STATIC,36,6,114,8
+    LTEXT           "GRP2 - Graphik Dialog, Version 1.0",IDC_STATIC,36,14,
+                    134,8
+    LTEXT           "Dietmar Schrausser (C) SCHRAUSSER 2011",IDC_STATIC,36,
+                    22,134,8
+    CONTROL         170,IDC_STATIC,"Static",SS_BITMAP,21,17,9,8
+END
+
+IDD_GRP2_Param_2_Bx DIALOGEX 0, 0, 105, 14
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "x - Achsen Bezeichnung"
+FONT 7, "Lucida Sans Unicode", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "übernehmen",IDOK,54,3,50,9
+    EDITTEXT        IDC_EDIT_Bx,0,0,40,12,ES_MULTILINE | ES_AUTOVSCROLL
+    PUSHBUTTON      "r",IDC_BUTTON_tlgx_reset,42,0,9,12,0,WS_EX_STATICEDGE
+END
+
+IDD_GRP2_Param_2_By DIALOGEX 0, 0, 105, 14
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "y - Achsen Bezeichnung"
+FONT 7, "Lucida Sans Unicode", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "r",IDC_BUTTON_tlgx_reset,42,0,9,12,0,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "übernehmen",IDOK,54,3,50,9
+    EDITTEXT        IDC_EDIT_Bx,0,0,40,12,ES_MULTILINE | ES_AUTOVSCROLL
+END
+
+IDD_GRP2_STATUS DIALOGEX 0, 0, 98, 0
+STYLE WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 6, "Lucida Sans Unicode"
+BEGIN
+END
+
+IDD_GRP2_FXY DIALOGEX 0, 0, 124, 199
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    EDITTEXT        IDC_EDIT_FXY,0,0,123,198,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_GRP2_THETA DIALOGEX 0, 0, 124, 199
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    EDITTEXT        IDC_EDIT_THETA,0,0,123,198,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_GRP2_LOG DIALOGEX 0, 0, 250, 198
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    EDITTEXT        IDC_EDIT_LOG,0,0,250,198,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL | 
+                    NOT WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "CompanyName", "SCHRAUSSER\0"
+            VALUE "FileDescription", "GRP2 - Grafik Dialog\0"
+            VALUE "FileVersion", "1, 0, 0, 0\0"
+            VALUE "InternalName", "GRP2\0"
+            VALUE "LegalCopyright", "Dietmar Schrausser (C) SCHRAUSSER 2011\0"
+            VALUE "OriginalFilename", "GRP2.EXE\0"
+            VALUE "ProductName", "GRP2\0"
+            VALUE "ProductVersion", "1, 0, 0, 0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 115
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 28
+    END
+
+    IDD_GRP2_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+
+    IDD_GRP2_Param_1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+        HORZGUIDE, 60
+    END
+
+    IDD_GRP2_Param_2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_GRP2_Param_3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_GRP2_Param_4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_GRP2_Param_5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_GRP2_Info, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        VERTGUIDE, 37
+        VERTGUIDE, 45
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 42
+    END
+
+    IDD_GRP2_Diagrm_1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+        HORZGUIDE, 18
+        HORZGUIDE, 64
+    END
+
+    IDD_GRP2_Diagrm_2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+        HORZGUIDE, 18
+        HORZGUIDE, 64
+    END
+
+    IDD_GRP2_Diagrm_3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+        HORZGUIDE, 18
+        HORZGUIDE, 64
+    END
+
+    IDD_GRP2_Fn_1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+        HORZGUIDE, 18
+        HORZGUIDE, 64
+    END
+
+    IDD_GRP2_Fn_2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        VERTGUIDE, 157
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+        HORZGUIDE, 18
+        HORZGUIDE, 64
+        HORZGUIDE, 145
+    END
+
+    IDD_GRP2_Fn_3, DIALOG
+    BEGIN
+        VERTGUIDE, 114
+        VERTGUIDE, 191
+        HORZGUIDE, 134
+        HORZGUIDE, 137
+        HORZGUIDE, 141
+        HORZGUIDE, 149
+        HORZGUIDE, 170
+    END
+
+    IDD_GRP2_Prg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        VERTGUIDE, 16
+        VERTGUIDE, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+        HORZGUIDE, 18
+        HORZGUIDE, 64
+    END
+
+    IDD_GRP2_Diagrm_4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+        HORZGUIDE, 18
+        HORZGUIDE, 64
+    END
+
+    IDD_GRP2_Diagrm_5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        VERTGUIDE, 104
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+        HORZGUIDE, 18
+        HORZGUIDE, 64
+        HORZGUIDE, 163
+    END
+
+    IDD_GRP2_koord, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 260
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 82
+        HORZGUIDE, 9
+        HORZGUIDE, 14
+        HORZGUIDE, 30
+        HORZGUIDE, 37
+    END
+
+    IDD_GRP2_Diagrm_6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+        HORZGUIDE, 18
+        HORZGUIDE, 64
+    END
+
+    IDD_GRP2_Splash, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 31
+    END
+
+    IDD_GRP2_Param_2_Bx, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 98
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 7
+    END
+
+    IDD_GRP2_Param_2_By, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 98
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 7
+    END
+
+    IDD_GRP2_STATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 91
+    END
+
+    IDD_GRP2_FXY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 117
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_GRP2_THETA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 117
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+
+    IDD_GRP2_LOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "&Funktion"
+    BEGIN
+        MENUITEM "Ö&ffnen... ",                 ID_FUNKTIONSMATRIX_FFNEN
+        MENUITEM "&Speichern",                  ID_FUNKTION_SPEICHERN
+        MENUITEM "Speichern &unter...",         ID_FUNKTION_SPEICHERNUNTER
+        MENUITEM SEPARATOR
+        MENUITEM "&EMF öffnen...",              ID_FUNKTION_EMFFFNEN
+        MENUITEM "EMF &speichern",              ID_FUNKTION_EMFSPEICHERN
+        MENUITEM "E&MF speichern unter...",     ID_FUNKTION_EMFSPEICHERNUNTER
+
+        MENUITEM SEPARATOR
+        MENUITEM "&Beenden",                    ID_APP_EXIT
+    END
+    POPUP "&Modus"
+    BEGIN
+        MENUITEM "&Invers",                     ID_MODUS_INV
+        MENUITEM SEPARATOR
+        MENUITEM "&f(x)",                       ID_MODUS_FX
+        MENUITEM "f(&zx)",                      ID_MODUS_FZX
+        MENUITEM "&r(x,y)",                     ID_MODUS_RXY
+        MENUITEM "F(&p)",                       ID_MODUS_FP
+        MENUITEM "F(&e)",                       ID_MODUS_EPSILON
+    END
+    POPUP "&Einstellungen"
+    BEGIN
+        POPUP "&Cursor"
+        BEGIN
+            MENUITEM "&schwarz",                    ID_EINSTELLUNGEN_CURSOR_SCHWARZ
+
+            MENUITEM "&weiss",                      ID_EINSTELLUNGEN_CURSOR_WEISS
+
+            MENUITEM SEPARATOR
+            MENUITEM "Achsenverschub",              ID_EINSTELLUNGEN_CURSOR_ACHSENVERSCHUB
+
+            MENUITEM "Vektorenverschub",            ID_EINSTELLUNGEN_CURSOR_VEKTORENVERSCHUB
+
+        END
+        MENUITEM "&Koordinaten...",             ID_EINSTELLUNGEN_KOORDINATEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Funktion...",                ID_EINSTELLUNGEN_Funktion
+        MENUITEM "P&arameter...",               ID_EINSTELLUNGEN_Parameter
+        MENUITEM "&Diagramm...",                ID_EINSTELLUNGEN_Diagramm
+        MENUITEM SEPARATOR
+        MENUITEM "&Programm...",                ID_EINSTELLUNGEN_APP
+    END
+    POPUP "&Ansicht"
+    BEGIN
+        MENUITEM "&Funktionsmatrix (F)=(x|y)",  ID_ANSICHT_FUNKTIONSMATRIXFXY
+
+        MENUITEM "&Thetamatrix (Q)=(qx|qy)",    ID_ANSICHT_THETAFENSTERQ
+        MENUITEM "&Log-Fenster",                ID_ANSICHT_GRP2LOG
+        MENUITEM SEPARATOR
+        MENUITEM "Status&leiste",               ID_ANSICHT_STATUSLEISTE
+    END
+    POPUP "&Hilfe"
+    BEGIN
+        MENUITEM "HATTE ICH KEINE",             ID_HILFE_HATTEICHKEINE
+        , GRAYED
+        MENUITEM "&Info",                       ID_INFO
+    END
+END
+
+IDR_MENU2 MENU DISCARDABLE 
+BEGIN
+    POPUP "&Funktion"
+    BEGIN
+        MENUITEM "Ö&ffnen... ",                 ID_FUNKTIONSMATRIX_FFNEN
+        MENUITEM "&EMF öffnen...",              ID_FUNKTION_EMFFFNEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Beenden",                    ID_APP_EXIT
+    END
+    POPUP "&Einstellungen"
+    BEGIN
+        MENUITEM "&Programm...",                ID_EINSTELLUNGEN_APP
+    END
+    POPUP "&Hilfe"
+    BEGIN
+        MENUITEM "HATTE ICH KEINE",             ID_HILFE_HATTEICHKEINE
+        , GRAYED
+        MENUITEM "&Info",                       ID_INFO
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_GRP2_Param_5 DLGINIT
+BEGIN
+    IDC_COMBO_emfx, 0x403, 3, 0
+0x3532, "\000" 
+    IDC_COMBO_emfx, 0x403, 3, 0
+0x3533, "\000" 
+    IDC_COMBO_emfy, 0x403, 3, 0
+0x3033, "\000" 
+    IDC_COMBO_emfy, 0x403, 3, 0
+0x3633, "\000" 
+    0
+END
+
+IDD_GRP2_Diagrm_1 DLGINIT
+BEGIN
+    IDC_COMBO_K_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_K_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_K_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_K_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_K_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_P_art, 0x403, 5, 0
+0x7572, 0x646e, "\000" 
+    IDC_COMBO_P_art, 0x403, 6, 0
+0x6365, 0x696b, 0x0067, 
+    IDC_COMBO_P_art, 0x403, 6, 0
+0x724b, 0x7565, 0x007a, 
+    0
+END
+
+IDD_GRP2_Diagrm_2 DLGINIT
+BEGIN
+    IDC_COMBO_X_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_X_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_X_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_X_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_X_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_Y_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_Y_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_Y_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_Y_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_Y_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_Xgrid_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_Xgrid_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_Xgrid_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_Xgrid_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_Xgrid_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_Ygrid_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_Ygrid_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_Ygrid_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_Ygrid_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_Ygrid_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    0
+END
+
+IDD_GRP2_Diagrm_3 DLGINIT
+BEGIN
+    IDC_COMBO_X_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_X_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_X_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_X_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_X_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_Y_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_Y_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_Y_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_Y_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_Y_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    0
+END
+
+IDD_GRP2_Diagrm_4 DLGINIT
+BEGIN
+    IDC_COMBO_rxy_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_rxy_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_rxy_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_rxy_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_rxy_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_ryx_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_ryx_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_ryx_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_ryx_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_ryx_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_syx_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_syx_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_syx_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_syx_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_syx_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_sxy_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_sxy_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_sxy_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_sxy_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_sxy_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_s1yx_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_s1yx_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_s1yx_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_s1yx_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_s1yx_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_s1xy_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_s1xy_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_s1xy_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_s1xy_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_s1xy_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_srxy_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_srxy_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_srxy_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_srxy_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_srxy_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_sryx_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_sryx_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_sryx_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_sryx_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_sryx_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_srx_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_srx_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_srx_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_srx_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_srx_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_sry_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_sry_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_sry_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_sry_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_sry_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    0
+END
+
+IDD_GRP2_Diagrm_5 DLGINIT
+BEGIN
+    IDC_COMBO_X_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_X_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_X_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_X_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_X_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_sd_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_sd_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_sd_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_sd_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_sd_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_sdg_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_sdg_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_sdg_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_sdg_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_sdg_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_sgx_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_sgx_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_sgx_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_sgx_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_sgx_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_a3_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_a3_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_a3_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_a3_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_a3_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_ag3_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_ag3_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_ag3_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_ag3_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_ag3_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_sa3g_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_sa3g_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_sa3g_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_sa3g_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_sa3g_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_a4_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_a4_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_a4_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_a4_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_a4_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_ag4_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_ag4_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_ag4_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_ag4_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_ag4_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_sa4g_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_sa4g_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_sa4g_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_sa4g_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_sa4g_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    0
+END
+
+IDD_GRP2_Prg DLGINIT
+BEGIN
+    IDC_COMBO_schema, 0x403, 9, 0
+0x7453, 0x6e61, 0x6164, 0x6472, "\000" 
+    IDC_COMBO_schema, 0x403, 18, 0
+0x6353, 0x7768, 0x7261, 0x207a, 0x7561, 0x2066, 0x6557, 0x7369, 0x0073, 
+
+    IDC_COMBO_schema, 0x403, 7, 0
+0x6e49, 0x6576, 0x7372, "\000" 
+    IDC_COMBO_schema, 0x403, 4, 0
+0x434c, 0x0044, 
+    IDC_COMBO_schema, 0x403, 5, 0
+0x7247, 0x6efc, "\000" 
+    IDC_COMBO_schema, 0x403, 4, 0
+0x6f52, 0x0074, 
+    IDC_COMBO_schema, 0x403, 5, 0
+0x6544, 0x3166, "\000" 
+    IDC_COMBO_schema, 0x403, 5, 0
+0x6544, 0x3266, "\000" 
+    IDC_COMBO_schema, 0x403, 5, 0
+0x6544, 0x3366, "\000" 
+    IDC_COMBO_schema, 0x403, 5, 0
+0x6544, 0x3466, "\000" 
+    0
+END
+
+IDD_GRP2_Diagrm_6 DLGINIT
+BEGIN
+    IDC_COMBO_x0_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_x0_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_x0_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_x0_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_x0_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_s0_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_s0_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_s0_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_s0_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_s0_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_x1_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_x1_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_x1_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_x1_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_x1_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_s1_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_s1_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_s1_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_s1_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_s1_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_e_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_e_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_e_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_e_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_e_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    IDC_COMBO_X_art, 0x403, 6, 0
+0x694c, 0x696e, 0x0065, 
+    IDC_COMBO_X_art, 0x403, 6, 0
+0x7550, 0x6b6e, 0x0074, 
+    IDC_COMBO_X_art, 0x403, 7, 0
+0x7453, 0x6972, 0x6863, "\000" 
+    IDC_COMBO_X_art, 0x403, 12, 0
+0x7453, 0x6972, 0x6863, 0x7570, 0x6b6e, 0x0074, 
+    IDC_COMBO_X_art, 0x403, 17, 0
+0x7453, 0x6972, 0x6863, 0x6f64, 0x7070, 0x6c65, 0x6b70, 0x2e74, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR  DISCARDABLE     "res\\cursor1.cur"
+IDC_CURSOR2             CURSOR  DISCARDABLE     "res\\cursor2.cur"
+IDC_CURSOR3             CURSOR  DISCARDABLE     "res\\cursor3.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_LOGO         BITMAP  DISCARDABLE     "res\\bitmap_l.bmp"
+IDB_BITMAP_EPSILON      BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_BITMAP_S1           BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_BITMAP_S0           BITMAP  DISCARDABLE     "res\\bitmap_s.bmp"
+IDB_BITMAP_pa1          BITMAP  DISCARDABLE     "res\\bitmap_p.bmp"
+IDB_BITMAP_pa2          BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_BITMAP_1            BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_BITMAP_0            BITMAP  DISCARDABLE     "res\\bitmap_2.bmp"
+IDB_BITMAP_crit         BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDB_BITMAP_SG           BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+IDB_BITMAP_AM           BITMAP  DISCARDABLE     "res\\bmp00006.bmp"
+IDB_BITMAP_SAM          BITMAP  DISCARDABLE     "res\\bmp00007.bmp"
+IDB_BITMAP_AG3          BITMAP  DISCARDABLE     "res\\bitmap_a.bmp"
+IDB_BITMAP_3            BITMAP  DISCARDABLE     "res\\bitmap_3.bmp"
+IDB_BITMAP_A            BITMAP  DISCARDABLE     "res\\bmp00008.bmp"
+IDB_BITMAP_4            BITMAP  DISCARDABLE     "res\\bitmap_4.bmp"
+IDB_BITMAP_a3           BITMAP  DISCARDABLE     "res\\bmp00009.bmp"
+IDB_BITMAP_a4           BITMAP  DISCARDABLE     "res\\bmp00010.bmp"
+IDB_BITMAP_INTEGRAL     BITMAP  DISCARDABLE     "res\\bmp00011.bmp"
+IDB_BITMAP_INTEGRAL_01  BITMAP  DISCARDABLE     "res\\bitmap_i.bmp"
+IDB_BITMAP_DIFF_0       BITMAP  DISCARDABLE     "res\\bitmap_d.bmp"
+IDB_BITMAP_DIFF         BITMAP  DISCARDABLE     "res\\bmp00012.bmp"
+IDB_BITMAP_DIFF_1       BITMAP  DISCARDABLE     "res\\bmp00013.bmp"
+IDB_BITMAP_m1           BITMAP  DISCARDABLE     "res\\bitmap_m.bmp"
+IDB_BITMAP_xy           BITMAP  DISCARDABLE     "res\\bmp00014.bmp"
+IDB_BITMAP_yx           BITMAP  DISCARDABLE     "res\\bmp00015.bmp"
+IDB_BITMAP_x            BITMAP  DISCARDABLE     "res\\bmp00016.bmp"
+IDB_BITMAP_y            BITMAP  DISCARDABLE     "res\\bmp00017.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "Information"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif
+#include "res\GRP2.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
