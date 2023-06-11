@@ -1,9 +1,7 @@
 # GRP2
-
-Coordinate system and graphics tool for SCHRAUSSER-MAT.
-
 ![figure.\label{pic0}](pic0.png)
 
+Coordinate system and graphics tool for SCHRAUSSER-MAT.
 
 ### Screenshots
 
